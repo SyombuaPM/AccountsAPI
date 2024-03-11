@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AccountApi", "AccountApi\AccountApi.csproj", "{C3F058F7-5CC6-4007-82CD-8C065B71943F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5AE7BBCE-B469-469E-BFC9-269BE7DC65A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccountApiTest", "Tests\AccountApiTest\AccountApiTest.csproj", "{6A510088-8BBA-443B-B4A5-CE53C2C69A78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3F058F7-5CC6-4007-82CD-8C065B71943F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F058F7-5CC6-4007-82CD-8C065B71943F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F058F7-5CC6-4007-82CD-8C065B71943F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F058F7-5CC6-4007-82CD-8C065B71943F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A510088-8BBA-443B-B4A5-CE53C2C69A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A510088-8BBA-443B-B4A5-CE53C2C69A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A510088-8BBA-443B-B4A5-CE53C2C69A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A510088-8BBA-443B-B4A5-CE53C2C69A78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {191CB350-EAD0-429A-B3E6-4732E4F079EA}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A510088-8BBA-443B-B4A5-CE53C2C69A78} = {5AE7BBCE-B469-469E-BFC9-269BE7DC65A4}
+	EndGlobalSection
+EndGlobal

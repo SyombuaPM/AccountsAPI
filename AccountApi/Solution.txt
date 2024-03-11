@@ -1,0 +1,34 @@
+Account
+Properties
+- Id(int)
+- Name(string)
+- Status(string - Yes/No)
+- Balance(Double)
+- Date(dateTime)
+Actions
+- Update Balance(Id)
+- Update Status(Id, )
+
+AccountDbContext
+Properties
+-DbContext
+Actions
+- configure
+
+
+Service
+- AccountDbContext
+Action
+- GetAccountList
+- GetAccount(Id)
+- UpdateAccount()
+- InsertAccount()
+- DeleteAccount(Id)
+
+Controller
+GetAccounts - Get
+GetAccount(id) - Get
+Withdraw(id/amount) - Patch
+DeleteAccount- Delete
+CreateAccount- Post 
+Deposit-Patch
